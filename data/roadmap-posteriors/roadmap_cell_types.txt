@@ -1,0 +1,128 @@
+color	comment	eid	group	anatomy	standardized_name	type	lab
+#E41A1C	Outlier DNA methylation data due (older platform)	E017	IMR90	LUNG	IMR90 fetal lung fibroblasts Cell Line	CellLine	UCSD
+#924965		E002	ESC	ESC	ES-WA7 Cells	PrimaryCulture	BI
+#924965		E008	ESC	ESC	H9 Cells	PrimaryCulture	UCSD
+#924965	Bad Methylation dataset. This epigenome is NOT to be used for DNA methylation analysis. All other data types are fine to use.	E001	ESC	ESC	ES-I3 Cells	PrimaryCulture	BI
+#924965		E015	ESC	ESC	HUES6 Cells	PrimaryCulture	BI
+#924965		E014	ESC	ESC	HUES48 Cells	PrimaryCulture	BI
+#924965		E016	ESC	ESC	HUES64 Cells	PrimaryCulture	BI
+#924965	Outlier DNA methylation dataset (older platform)	E003	ESC	ESC	H1 Cells	PrimaryCulture	BI;UCSD;UCSF-UBC
+#924965		E024	ESC	ESC	ES-UCSF4  Cells	PrimaryCulture	UCSF-UBC
+#69608A		E020	iPSC	IPSC	iPS-20b Cells	PrimaryCulture	BI
+#69608A		E019	iPSC	IPSC	iPS-18 Cells	PrimaryCulture	BI
+#69608A		E018	iPSC	IPSC	iPS-15b Cells	PrimaryCulture	BI
+#69608A		E021	iPSC	IPSC	iPS DF 6.9 Cells	PrimaryCulture	UCSD
+#69608A		E022	iPSC	IPSC	iPS DF 19.11 Cells	PrimaryCulture	UCSD
+#4178AE		E007	ES-deriv	ESC_DERIVED	H1 Derived Neuronal Progenitor Cultured Cells	ESCDerived	UCSD
+#4178AE		E009	ES-deriv	ESC_DERIVED	H9 Derived Neuronal Progenitor Cultured Cells	ESCDerived	BI
+#4178AE		E010	ES-deriv	ESC_DERIVED	H9 Derived Neuron Cultured Cells	ESCDerived	BI
+#4178AE		E013	ES-deriv	ESC_DERIVED	hESC Derived CD56+ Mesoderm Cultured Cells	ESCDerived	BI
+#4178AE		E012	ES-deriv	ESC_DERIVED	hESC Derived CD56+ Ectoderm Cultured Cells	ESCDerived	BI
+#4178AE		E011	ES-deriv	ESC_DERIVED	hESC Derived CD184+ Endoderm Cultured Cells	ESCDerived	BI
+#4178AE		E004	ES-deriv	ESC_DERIVED	H1 BMP4 Derived Mesendoderm Cultured Cells	ESCDerived	UCSD
+#4178AE		E005	ES-deriv	ESC_DERIVED	H1 BMP4 Derived Trophoblast Cultured Cells	ESCDerived	UCSD
+#4178AE		E006	ES-deriv	ESC_DERIVED	H1 Derived Mesenchymal Stem Cells	ESCDerived	UCSD
+#55A354		E062	Blood & T-cell	BLOOD	Primary mononuclear cells from peripheral blood	PrimaryCell	UCSF-UBC
+#55A354		E034	Blood & T-cell	BLOOD	Primary T cells from peripheral blood	PrimaryCell	UW
+#55A354		E045	Blood & T-cell	BLOOD	Primary T cells effector/memory enriched from peripheral blood	PrimaryCell	BI
+#55A354		E033	Blood & T-cell	BLOOD	Primary T cells from cord blood	PrimaryCell	BI
+#55A354		E044	Blood & T-cell	BLOOD	Primary T regulatory cells from peripheral blood	PrimaryCell	BI
+#55A354		E043	Blood & T-cell	BLOOD	Primary T helper cells from peripheral blood	PrimaryCell	BI
+#55A354		E039	Blood & T-cell	BLOOD	Primary T helper naive cells from peripheral blood	PrimaryCell	BI
+#55A354		E041	Blood & T-cell	BLOOD	Primary T helper cells PMA-I stimulated	PrimaryCell	BI
+#55A354		E042	Blood & T-cell	BLOOD	Primary T helper 17 cells PMA-I stimulated	PrimaryCell	BI
+#55A354		E040	Blood & T-cell	BLOOD	Primary T helper memory cells from peripheral blood 1	PrimaryCell	BI
+#55A354		E037	Blood & T-cell	BLOOD	Primary T helper memory cells from peripheral blood 2	PrimaryCell	BI
+#55A354		E048	Blood & T-cell	BLOOD	Primary T CD8+ memory cells from peripheral blood	PrimaryCell	BI
+#55A354		E038	Blood & T-cell	BLOOD	Primary T helper naive cells from peripheral blood	PrimaryCell	BI;UCSF-UBC
+#55A354		E047	Blood & T-cell	BLOOD	Primary T CD8+ naive cells from peripheral blood	PrimaryCell	BI;UCSF-UBC
+#678C69		E029	HSC & B-cell	BLOOD	Primary monocytes from peripheral blood	PrimaryCell	UW
+#678C69		E031	HSC & B-cell	BLOOD	Primary B cells from cord blood	PrimaryCell	BI
+#678C69		E035	HSC & B-cell	BLOOD	Primary hematopoietic stem cells	PrimaryCell	BI
+#678C69		E051	HSC & B-cell	BLOOD	Primary hematopoietic stem cells G-CSF-mobilized Male	PrimaryCell	BI
+#678C69		E050	HSC & B-cell	BLOOD	Primary hematopoietic stem cells G-CSF-mobilized Female	PrimaryCell	BI
+#678C69		E036	HSC & B-cell	BLOOD	Primary hematopoietic stem cells short term culture	PrimaryCell	BI
+#678C69		E032	HSC & B-cell	BLOOD	Primary B cells from peripheral blood	PrimaryCell	UW
+#678C69		E046	HSC & B-cell	BLOOD	Primary Natural Killer cells from peripheral blood	PrimaryCell	UW
+#678C69		E030	HSC & B-cell	BLOOD	Primary neutrophils from peripheral blood	PrimaryCell	BI
+#B65C73		E026	Mesench	STROMAL_CONNECTIVE	Bone Marrow Derived Cultured Mesenchymal Stem Cells	PrimaryCulture	BI
+#B65C73		E049	Mesench	STROMAL_CONNECTIVE	Mesenchymal Stem Cell Derived Chondrocyte Cultured Cells	PrimaryCulture	BI
+#B65C73		E025	Mesench	FAT	Adipose Derived Mesenchymal Stem Cell Cultured Cells	PrimaryCulture	BI
+#B65C73		E023	Mesench	FAT	Mesenchymal Stem Cell Derived Adipocyte Cultured Cells	PrimaryCulture	BI
+#E67326		E052	Myosat	MUSCLE	Muscle Satellite Cultured Cells	PrimaryCulture	BI
+#FF9D0C		E055	Epithelial	SKIN	Foreskin Fibroblast Primary Cells skin01	PrimaryCulture	UCSF-UBC
+#FF9D0C		E056	Epithelial	SKIN	Foreskin Fibroblast Primary Cells skin02	PrimaryCulture	UCSF-UBC
+#FF9D0C		E059	Epithelial	SKIN	Foreskin Melanocyte Primary Cells skin01	PrimaryCulture	UCSF-UBC
+#FF9D0C		E061	Epithelial	SKIN	Foreskin Melanocyte Primary Cells skin03	PrimaryCulture	UCSF-UBC
+#FF9D0C		E057	Epithelial	SKIN	Foreskin Keratinocyte Primary Cells skin02	PrimaryCulture	UCSF-UBC
+#FF9D0C		E058	Epithelial	SKIN	Foreskin Keratinocyte Primary Cells skin03	PrimaryCulture	UCSF-UBC
+#FF9D0C		E028	Epithelial	BREAST	Breast variant Human Mammary Epithelial Cells (vHMEC)	PrimaryCulture	UCSF-UBC
+#FF9D0C	Bad SBS DNA Methylation dataset. mCRF DNA Methylation data is fine.	E027	Epithelial	BREAST	Breast Myoepithelial Primary Cells	PrimaryCell	UCSF-UBC
+#FFD924		E054	Neurosph	BRAIN	Ganglion Eminence derived primary cultured neurospheres	PrimaryCulture	UCSF-UBC
+#FFD924		E053	Neurosph	BRAIN	Cortex derived primary cultured neurospheres	PrimaryCulture	UCSF-UBC
+#DAB92E		E112	Thymus	THYMUS	Thymus	PrimaryTissue	UCSD
+#DAB92E		E093	Thymus	THYMUS	Fetal Thymus	PrimaryTissue	UW
+#C5912B		E071	Brain	BRAIN	Brain Hippocampus Middle	PrimaryTissue	BI
+#C5912B		E074	Brain	BRAIN	Brain Substantia Nigra	PrimaryTissue	BI
+#C5912B		E068	Brain	BRAIN	Brain Anterior Caudate	PrimaryTissue	BI
+#C5912B		E069	Brain	BRAIN	Brain Cingulate Gyrus	PrimaryTissue	BI
+#C5912B		E072	Brain	BRAIN	Brain Inferior Temporal Lobe	PrimaryTissue	BI
+#C5912B		E067	Brain	BRAIN	Brain Angular Gyrus	PrimaryTissue	BI
+#C5912B		E073	Brain	BRAIN	Brain_Dorsolateral_Prefrontal_Cortex	PrimaryTissue	BI
+#C5912B		E070	Brain	BRAIN	Brain Germinal Matrix	PrimaryTissue	UCSF-UBC
+#C5912B		E082	Brain	BRAIN	Fetal Brain Female	PrimaryTissue	UCSF-UBC
+#C5912B		E081	Brain	BRAIN	Fetal Brain Male	PrimaryTissue	BI
+#AF5B39		E063	Adipose	FAT	Adipose Nuclei	PrimaryTissue	BI
+#C2655D		E100	Muscle	MUSCLE	Psoas Muscle	PrimaryTissue	UCSD
+#C2655D		E108	Muscle	MUSCLE	Skeletal Muscle Female	PrimaryTissue	BI
+#C2655D		E107	Muscle	MUSCLE	Skeletal Muscle Male	PrimaryTissue	BI
+#C2655D		E089	Muscle	MUSCLE	Fetal Muscle Trunk	PrimaryTissue	UW
+#C2655D		E090	Muscle	MUSCLE_LEG	Fetal Muscle Leg	PrimaryTissue	UW
+#D56F80		E083	Heart	HEART	Fetal Heart	PrimaryTissue	BI
+#D56F80	Likely antibody issue with H3K36me3. Use this sample with extreme caution especially any chromatin states associated with H3K36me3	E104	Heart	HEART	Right Atrium	PrimaryTissue	UCSD
+#D56F80		E095	Heart	HEART	Left Ventricle	PrimaryTissue	UCSD
+#D56F80		E105	Heart	HEART	Right Ventricle	PrimaryTissue	UCSD
+#D56F80		E065	Heart	VASCULAR	Aorta	PrimaryTissue	UCSD
+#F182BC		E078	Sm. Muscle	GI_DUODENUM	Duodenum Smooth Muscle	PrimaryTissue	BI
+#F182BC		E076	Sm. Muscle	GI_COLON	Colon Smooth Muscle	PrimaryTissue	BI
+#F182BC		E103	Sm. Muscle	GI_RECTUM	Rectal Smooth Muscle	PrimaryTissue	BI
+#F182BC		E111	Sm. Muscle	GI_STOMACH	Stomach Smooth Muscle	PrimaryTissue	BI
+#C58DAA		E092	Digestive	GI_STOMACH	Fetal Stomach	PrimaryTissue	UW
+#C58DAA		E085	Digestive	GI_INTESTINE	Fetal Intestine Small	PrimaryTissue	UW
+#C58DAA		E084	Digestive	GI_INTESTINE	Fetal Intestine Large	PrimaryTissue	UW
+#C58DAA		E109	Digestive	GI_INTESTINE	Small Intestine	PrimaryTissue	UCSD
+#C58DAA		E106	Digestive	GI_COLON	Sigmoid Colon	PrimaryTissue	UCSD
+#C58DAA		E075	Digestive	GI_COLON	Colonic Mucosa	PrimaryTissue	BI
+#C58DAA		E101	Digestive	GI_RECTUM	Rectal Mucosa Donor 29	PrimaryTissue	BI
+#C58DAA		E102	Digestive	GI_RECTUM	Rectal Mucosa Donor 31	PrimaryTissue	BI
+#C58DAA		E110	Digestive	GI_STOMACH	Stomach Mucosa	PrimaryTissue	BI
+#C58DAA		E077	Digestive	GI_DUODENUM	Duodenum Mucosa	PrimaryTissue	BI
+#C58DAA		E079	Digestive	GI_ESOPHAGUS	Esophagus	PrimaryTissue	UCSD
+#C58DAA		E094	Digestive	GI_STOMACH	Gastric	PrimaryTissue	UCSD
+#999999		E099	Other	PLACENTA	Placenta Amnion	PrimaryTissue	UCSF-UBC
+#999999		E086	Other	KIDNEY	Fetal Kidney	PrimaryTissue	BI
+#999999		E088	Other	LUNG	Fetal Lung	PrimaryTissue	BI
+#999999		E097	Other	OVARY	Ovary	PrimaryTissue	UCSD
+#999999		E087	Other	PANCREAS	Pancreatic Islets	PrimaryTissue	BI;UCSF-UBC
+#999999		E080	Other	ADRENAL	Fetal Adrenal Gland	PrimaryTissue	UW
+#999999		E091	Other	PLACENTA	Placenta	PrimaryTissue	UW
+#999999		E066	Other	LIVER	Liver	PrimaryTissue	BI
+#999999	Has very weak H3K27me3.  So repressed chromatin states would be artificially lacking.	E098	Other	PANCREAS	Pancreas	PrimaryTissue	UCSD
+#999999		E096	Other	LUNG	Lung	PrimaryTissue	UCSD
+#999999	Has very weak H3K27me3. So Repressed chromatin states will be artificially lacking.	E113	Other	SPLEEN	Spleen	PrimaryTissue	UCSD
+#000000		E114	ENCODE2012	LUNG	A549 EtOH 0.02pct Lung Carcinoma Cell Line	CellLine	BI
+#000000		E115	ENCODE2012	BLOOD	Dnd41 TCell Leukemia Cell Line	CellLine	BI
+#000000		E116	ENCODE2012	BLOOD	GM12878 Lymphoblastoid Cells	PrimaryCulture	BI
+#000000		E117	ENCODE2012	CERVIX	HeLa-S3 Cervical Carcinoma Cell Line	CellLine	BI
+#000000		E118	ENCODE2012	LIVER	HepG2 Hepatocellular Carcinoma Cell Line	CellLine	BI
+#000000		E119	ENCODE2012	BREAST	HMEC Mammary Epithelial Primary Cells	PrimaryCulture	BI
+#000000		E120	ENCODE2012	MUSCLE	HSMM Skeletal Muscle Myoblasts Cells	PrimaryCulture	BI
+#000000		E121	ENCODE2012	MUSCLE	HSMM cell derived Skeletal Muscle Myotubes Cells	PrimaryCulture	BI
+#000000		E122	ENCODE2012	VASCULAR	HUVEC Umbilical Vein Endothelial Primary Cells	PrimaryCulture	BI
+#000000		E123	ENCODE2012	BLOOD	K562 Leukemia Cells	PrimaryCulture	BI
+#000000		E124	ENCODE2012	BLOOD	Monocytes-CD14+ RO01746 Primary Cells	PrimaryCell	BI
+#000000		E125	ENCODE2012	BRAIN	NH-A Astrocytes Primary Cells	PrimaryCulture	BI
+#000000		E126	ENCODE2012	SKIN	NHDF-Ad Adult Dermal Fibroblast Primary Cells	PrimaryCulture	BI
+#000000		E127	ENCODE2012	SKIN	NHEK-Epidermal Keratinocyte Primary Cells	PrimaryCulture	BI
+#000000		E128	ENCODE2012	LUNG	NHLF Lung Fibroblast Primary Cells	PrimaryCulture	BI
+#000000		E129	ENCODE2012	BONE	Osteoblast Primary Cells	PrimaryCulture	BI

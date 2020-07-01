@@ -1,0 +1,7 @@
+# 0-order Markov frequencies from file /lab/work/porchard/snp-aware-pwm-scanning/data/fasta/hg19.fa
+# seqs: 93    min: 4262    max: 249250621    avg: 33732916.8    sum: 3137161264    alph: DNA
+# order 0
+A 2.953e-01
+C 2.047e-01
+G 2.047e-01
+T 2.953e-01

@@ -1,0 +1,15 @@
+library	name	species	replicate	modality	samples	experiment	fans_status	loading_concentration
+125589-hg19	Human ATAC from human/rat mix	Human	rep. 1	ATAC	sample_1	pilot	no FANS	15k
+125589-rn6	Rat ATAC from human/rat mix	Rat	rep. 1	ATAC	sample_2	pilot	no FANS	15k
+133151-hg19	Human ATAC, no FANS rep1	Human	rep. 1	ATAC	sample_1	FANS vs. no FANS	no FANS	15k
+133152-hg19	Human ATAC, FANS rep1	Human	rep. 1	ATAC	sample_1	FANS vs. no FANS	FANS	15k
+133153-hg19	Human ATAC, no FANS rep2	Human	rep. 2	ATAC	sample_1	FANS vs. no FANS	no FANS	15k
+133154-hg19	Human ATAC, FANS rep2	Human	rep. 2	ATAC	sample_1	FANS vs. no FANS	FANS	15k
+63_20-hg19	Human ATAC, 20k nuclei	Human	rep. 1	ATAC	sample_1, sample_3	20k vs. 40k	no FANS	20k
+63_40-hg19	Human ATAC, 40k nuclei	Human	rep. 1	ATAC	sample_1, sample_3	20k vs. 40k	no FANS	40k
+133155-hg19	Human RNA, no FANS rep1	Human	rep. 1	RNA	sample_1	FANS vs. no FANS	no FANS	15k
+133156-hg19	Human RNA, FANS rep1	Human	rep. 1	RNA	sample_1	FANS vs. no FANS	FANS	15k
+133157-hg19	Human RNA, no FANS rep2	Human	rep. 2	RNA	sample_1	FANS vs. no FANS	no FANS	15k
+133158-hg19	Human RNA, FANS rep2	Human	rep. 2	RNA	sample_1	FANS vs. no FANS	FANS	15k
+63_20_rna-hg19	Human RNA, 20k nuclei	Human	rep. 1	RNA	sample_1, sample_3	20k vs. 40k	no FANS	20k
+63_40_rna-hg19	Human RNA, 40k nuclei	Human	rep. 1	RNA	sample_1, sample_3	20k vs. 40k	no FANS	40k

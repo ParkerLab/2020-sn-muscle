@@ -1,0 +1,9 @@
+library	min_hqaa	max_hqaa	max_max_fraction_reads_from_single_autosome	min_tss_enrichment
+125589-hg19	25000	1e+07	0.15	3
+125589-rn6	35000	1e+07	0.15	3
+133151-hg19	70000	1e+07	0.15	4.5
+133152-hg19	15000	1e+07	0.15	3
+133153-hg19	50000	1e+07	0.15	4.5
+133154-hg19	17000	1e+07	0.15	3
+63_20-hg19	30000	1e+07	0.15	4.5
+63_40-hg19	15000	1e+07	0.15	4.5

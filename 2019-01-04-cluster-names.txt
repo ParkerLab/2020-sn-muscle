@@ -1,0 +1,8 @@
+old_name	new_name
+0	Type II muscle fibers
+1	Type I muscle fibers
+2	Mesenchymal stem cells
+3	Endothelial cells
+4	Smooth Muscle
+5	Immune cells
+6	Muscle satellite cells

@@ -1,0 +1,14 @@
+library	genomes	modality	sorting	sequencing_run
+125589	hg19,rn6	ATAC	unsorted	2689
+133151	hg19	ATAC	unsorted	2965
+133152	hg19	ATAC	sorted	2965
+133153	hg19	ATAC	unsorted	2965
+133154	hg19	ATAC	sorted	2965
+133155	hg19	RNA	unsorted	2943
+133156	hg19	RNA	sorted	2943
+133157	hg19	RNA	unsorted	2943
+133158	hg19	RNA	sorted	2943
+63_20	hg19	ATAC	unsorted	NovaA155
+63_40	hg19	ATAC	unsorted	NovaA155
+63_20_rna	hg19	RNA	unsorted	NovaA161
+63_40_rna	hg19	RNA	unsorted	NovaA161

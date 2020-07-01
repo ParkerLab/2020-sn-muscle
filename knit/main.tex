@@ -1,0 +1,141 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\pagestyle{empty}
+\usepackage{floatrow}
+\usepackage{subfig}
+\usepackage{csvsimple}
+\captionsetup[subfigure]{labelformat=simple,position=top,justification=justified,singlelinecheck=false}
+\captionsetup[figure]{labelformat=simple,labelsep=space,labelfont=bf}
+
+\title{snATAC and snRNA muscle manuscript figures}
+
+\begin{document}
+
+\floatsetup[figure]{style=plain,subcapbesideposition=top}
+
+\maketitle
+\pagestyle{empty}
+
+  
+\renewcommand{\thefigure}{\textbf{\arabic{figure}. }}
+\setcounter{figure}{0}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figure-1}
+	\caption{(A) Study design to determine the effect of FANS on snRNA-seq and snATAC-seq results. Muscle cartoon adapted from Scott et al. 2016. HSM1 refers to one specific skeletal muscle sample ('human skeletal muscle 1'). Bulk ATAC-seq was performed on HSM1 as well (two replicates, each separate nuclei isolations). (B) Fragment length distribution and (C) TSS enrichment for two snATAC-seq libraries that did not undergo FANS and two that did, as well as two bulk ATAC-seq replicates from the same sample ('Bulk'). (D) ATAC-seq signal at the \textit{ANK1} locus for FANS or non-FANS input snATAC-seq libraries, and the two bulk ATAC-seq libraries. All tracks are normalized to 1M reads. (E) Correlation between FANS and non-FANS snRNA-seq libraries; each point represents one gene. (F) Study design to determine the effect of loading 20k vs 40k nuclei into the 10X platform, utilizing HSM1 as well as a second sample, HSM2 ('human skeletal muscle 2'). Bulk ATAC-seq was performed on HSM1 (same libraries as in (a)) and on HSM2 (two replicates, each separate nuclei isolations). (G) Fragment length distribution and (H) TSS enrichment for snATAC-seq libraries after loading 20k vs 40k nuclei, as well as for the four bulk ATAC-seq libraries (two each from the two muscle samples, 'HSM1 bulk' and 'HSM2 bulk'). (I) ATAC-seq signal at the \textit{ANK1} locus for the 20k and 40k libraries and the four bulk ATAC-seq libraries. All tracks are normalized to 1M reads. (J) Correlation between snRNA-seq libraries resulting from loading 20k vs 40k nuclei.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figure-2}
+	\caption{(A) UMAP after clustering human snATAC-seq, human snRNA-seq, and rat snATAC-seq nuclei with LIGER. (B) UMAP facetted by species and modality. (C) Gene expression (snRNA-seq) or accessibility (snATAC-seq; gene promoter + gene body) of marker genes. Values are column-normalized. (D) ATAC-seq signal for human snATAC-seq nuclei in each cluster. All tracks are normalized to 1M reads. (E) Fraction of nuclei, across both species and modalities, assigned to each cell type. (F) Logistic regression-based approach to score similarity between TSS-distal ATAC-seq peaks ($>$ 5 kb from TSS) and Roadmap Epigenomics enhancer states. For all TSS-distal ATAC-seq peaks across all muscle cell types, we scored the accessibility of the peak (0/1) in each of the muscle cell types based on the presence or absence of a peak call in that cell type. Then, for a given one of the 127 Roadmap Epigenomics cell types, we determined the maximum posterior probability of the enhancer states in the Roadmap Epigenomics chromHMM model within each peak. We then used logistic regression to model the relationship between the peak accessibility and the enhancer posteriors (running one model per muscle cell type per Roadmap Epigenomics cell type). Then, for each muscle cell type, the model coefficient was normalized to 1 by dividing by the maximum coefficient across all 127 Roadmap Epigenomics cell types, and this value was used as the enhancer similarity score for that muscle cell type and Roadmap Epigenomics cell type. (G) Similarity of snATAC-seq peak calls for each cell type and species to Roadmap Epigenomics chromHMM enhancer states based on the logistic regression procedure outlined in (F). The Roadmap Epigenomics cell type names have been adjusted slightly for clarity and the sake of space. The full names and the identifiers from the Roadmap Epigenomics paper are: Psoas muscle (E100), Mesenchymal Stem Cell Derived Adipocyte Cultured Cells (E023), HUVEC Umbilical Vein Endothelial Primary Cells (E122), Stomach Smooth Muscle (E111), Primary monocytes from peripheral blood (E029), and Fetal Muscle Trunk (E089). (H) Nucleus counts per species for snATAC-seq data.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figure-3}
+	\caption{(A) UK Biobank LDSC partitioned heritability results for traits for which one of the muscle cell types was significant after Benjamini-Yekutieli correction. (B) LDSC partitioned heritability results for creatinine (UK Biobank trait 30700). Red y-axis labels refer to the muscle snATAC-seq cell type annotations. (C) Locuszoom plot for \textit{C17orf67} locus in the UK Biobank creatinine GWAS. (D) ATAC-seq signal in the region highlighted in (C). All tracks are normalized to 1M reads. SNPs shown have LD $\ge$ 0.8 with the lead SNP based on the European samples in 1000 Genomes Phase 3 (Version 5; 1000 Genomes Project Consortium et al., 2015). (E). gkmexplain importance scores for the ref and alt allele-containing sequences (top two rows), and the difference between the ref and alt allele importance scores (third row), which resembles the PITX2\_2 motif predicted to be disrupted by the A allele (bottom row).}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=0.85\textwidth]{figure-4}
+	\caption{(A) LDSC partitioned heritability results for T2D (BMI unadjusted) and Fasting insulin GWAS (BMI-adjusted), using human peak calls. For each of the cell types, one model was run adjusting for cell type-agnostic annotations from the LDSC baseline model and common open chromatin regions. Asterisks represent Bonferroni significance (p $<$ 0.05 after adjusting for 40 tests). (B) locuszoom plot for \textit{ITPR2} locus in the DIAMANTE data. (C) DIAMANTE credible set near the \textit{ITPR2} gene, consisting of 22 SNPs. One SNP (highlighted in red) overlaps a peak call in any of the muscle cell types. (D) gkmexplain importance scores for the ref and alt allele (top two rows) and the difference between the ref and alt importance scores (third row); the G allele disrupts an AP1 motif (bottom row). (E). locuszoom plot for \textit{ARL15} locus in the DIAMANTE data. (F). DIAMANTE credible set SNPs near the \textit{ARL15} gene. The three SNPs represent the three-SNP credible set discussed in the text. One of these SNPs, highlighted in red, overlaps a mesenchymal stem cell specific peak. (G). Projecting the SNP highlighted in (F) into the rat genome (projected SNP position indicated by the red vertical line) shows the corresponding region has open chromatin in rat mesenchymal stem cells. (H). gkmexplain importance scores for the ref and alt alleles (top two rows), the difference between them (third row), and a MEF2 motif disrupted by the SNP.}
+\end{figure}
+
+% Supplemental figures
+\renewcommand{\thefigure}{\textbf{S\arabic{figure}. }}
+\setcounter{figure}{0}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{fans-chromhmm-overlap}
+	\caption{Chromatin state overlap for TSS-distal ($>$ 5kb from TSS) ATAC-seq peaks from the FANS and non-FANS snATAC-seq libraries.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{fans-atac-correlation}
+\caption{Correlation between FANS snATAC-seq, non-FANS snATAC-seq, and standard bulk ATAC-seq libraries. Each point represents one peak.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{umis-vs-mitochondrial-fans-vs-no-fans}
+\caption{QC thresholds for FANS and non-FANS snRNA-seq libraries. Dashed lines represent thresholds for minimum number of UMIs, maximum number of UMIs, and maximum fraction of mitochondrial UMIs.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{loading-chromhmm-overlap}
+	\caption{Chromatin state overlap for TSS-distal ($>$5 kb from TSS) ATAC-seq peaks from the 20k and 40k nucleus FANS snATAC-seq libraries.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{loading-atac-correlation}
+\caption{Correlation between 20k and 40k nucleus snATAC-seq libraries and standard bulk ATAC-seq libraries. Each point represents one peak.}
+\end{figure}
+
+\begin{figure}
+	\subfloat[]{\includegraphics[width=0.6\textwidth]{hqaa-vs-tss-enrichment-20k-vs-40k}}\\
+	\subfloat[]{\includegraphics[width=0.6\textwidth]{hqaa-vs-max-fraction-reads-from-single-autosome-20k-vs-40k}}
+	\caption{QC thresholding for the 20k and 40k nuclei input snATAC-seq libraries. (a) Dashed lines represent thresholds for minimum number of reads, maximum number of reads, and minimum TSS enrichment. (b) Dashed lines represent thresholds for minimum number of reads, maximum number of reads, and the maximum fraction of reads derived from a single autosome (imposed to filter out nuclei showing aberrant per-chromosome coverage).}
+\end{figure} 
+
+\begin{figure}
+\includegraphics[width=0.6\textwidth]{umis-vs-mitochondrial-20k-vs-40k}
+\caption{QC thresholds for the 20k and 40k nuclei input snRNA-seq libraries. Dashed lines represent thresholds for minimum number of UMIs, maximum number of UMIs, and maximum fraction of mitochondrial UMIs.}
+\end{figure} 
+
+\begin{figure}
+	\subfloat[]{\includegraphics[width=0.8\textwidth]{hqaa-vs-tss-enrichment-used-downstream}}\\
+	\subfloat[]{\includegraphics[width=0.8\textwidth]{hqaa-vs-max-fraction-reads-from-single-autosome-used-downstream}}
+	\caption{QC thresholds for all snATAC-seq libraries used in cell type clustering and downstream analyses. (a) Dashed lines represent thresholds for minimum number of reads, maximum number of reads, and minimum TSS enrichment. (b) Dashed lines represent thresholds for minimum number of reads, maximum number of reads, and the maximum fraction of reads derived from a single autosome (imposed to filter out nuclei showing aberrant per-chromosome coverage).}
+\end{figure} 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{umis-vs-mitochondrial-used-downstream}
+\caption{QC thresholds for all snRNA-seq libraries used in cell type clustering and downstream analyses. Dashed lines represent thresholds for minimum number of UMIs, maximum number of UMIs, and maximum fraction of mitochondrial UMIs.}
+\end{figure} 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{MYH1-plus-MYH4-vs-MYH7}
+	\caption{snATAC-seq read counts (gene promoter + gene body) derived from the Type II muscle fiber myosin heavy chain genes (MYH1, MYH2, MYH4) or the Type I muscle fiber myosin heavy chain gene (MYH7) for human and rat nuclei. Each point represents a single nucleus. Type I muscle fibers/Type II muscle fibers headers represent the cluster to which each nucleus was assigned. }
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{rubenstein-vs-our-fiber-type-lfcs}
+	\caption{Log2(fold change) for Type II vs Type I muscle fiber gene expression, showing the genes with the largest fold changes between fiber types based on data from Rubenstein et al. (Rubenstein et al. Table S4). Rubenstein et al. performed RNA-seq on pooled type I and pooled type II muscle fibers, and determined the 20 genes with the largest fold change in type II relative to type I fibers, and the 20 genes with the largest fold change in the other direction, along with p-values for differential expression. The 34 genes (of those 40 genes) that were differentially expressed are shown here. The gene fold changes based on the muscle snRNA-seq data are often lower in magnitude than the fold changes based on Rubenstein et. al's pooled RNA-seq data; this is unsurprising, as ambient RNA in the snRNA-seq data as well as any errors in nucleus fiber type assignments in snRNA-seq data clustering will reduce the observed fiber type differences.}
+\end{figure}
+
+\begin{figure}
+	%\subfloat[]{\includegraphics[width=\textwidth]{UKB-LDSC-bonferroni-hg19}}\\
+	%\subfloat[]{\includegraphics[width=\textwidth]{UKB-LDSC-bonferroni-rn6}}
+	%\caption{UK Biobank LDSC partitioned heritability results for traits for which one of the muscle cell types was significant after Bonferroni correction. (A) human, (B) rat.}
+	\subfloat[]{\includegraphics[width=\textwidth]{UKB-LDSC-by-hg19}}\\
+	\subfloat[]{\includegraphics[width=\textwidth]{UKB-LDSC-by-rn6}}
+	\caption{UK Biobank LDSC partitioned heritability results for traits for which one of the muscle cell types was significant after Benjamini-Yekutieli correction. (A) human, (B) rat.}
+\end{figure}
+
+%\begin{figure}
+%\includegraphics[width=\textwidth]{UKB-top-in-our-cell-types}
+%\caption{LDSC coefficients for the subset of UK Biobank traits for which one of the muscle cell types showed the greatest z-score and that z-score was at least 3.}
+%\end{figure}
+
+\begin{figure}
+	\subfloat[]{\includegraphics[width=0.8\textwidth]{T2D-FIns-hg19}}\\
+	\subfloat[]{\includegraphics[width=0.8\textwidth]{T2D-FIns-rn6}}
+<<<<<<< HEAD
+	\caption{(A) LDSC partitioned heritability results for T2D (BMI-unadjusted) and Fasting insulin GWAS (BMI-adjusted), using human peak calls. Results are shown for pancreatic beta cell, adipose, and liver open chromatin regions as well. First, for each of the ten cell types, one model was run adjusting for cell type-agnostic annotations from the LDSC baseline model and common open chromatin regions (this is the joint model with open chromatin). Then, a single model containing those same annotations and all ten cell types was run (this is the joint model with open chromatin and all other cell types). Asterisk represents Bonferroni significance (p < 0.05 after adjusting for two traits, ten cell types, and two models per cell type = 40 tests). (B) Same as (A), but using the rat peak calls projected into human coordinates for the muscle cell types.}
+=======
+	\caption{(A) LDSC partitioned heritability results for T2D and Fasting insulin GWAS (both BMI-adjusted), using human peak calls. Results are shown for pancreatic beta cell, adipose, and liver open chromatin regions as well. First, for each of the ten cell types, one model was run adjusting for cell type-agnostic annotations from the LDSC baseline model and common open chromatin regions (this is the joint model with open chromatin). Then, a single model containing those same annotations and all ten cell types was run (this is the joint model with open chromatin and all other cell types). Asterisk represents Bonferroni significance (p $<$ 0.05 after adjusting for two traits, ten cell types, and two models per cell type = 40 tests). (B) Same as (A), but using the rat peak calls projected into human coordinates for the muscle cell types.}
+>>>>>>> Fix some formatting
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{{ITPR2-other-cell-types.chr12_26436640_26491955}.pdf}
+\includegraphics[width=\textwidth,trim=0em 29em 0em 0em,clip=true]{chrom_state_legend}
+	\caption{ATAC-seq signal in bulk adipose, bulk islet, single-nucleus pancreatic beta cell, or our muscle cell types at the \textit{ITPR2} locus. All tracks are normalized to 1M reads.}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{ARL15-locus-with-other-cell-types}
+\includegraphics[width=\textwidth,trim=0em 29em 0em 0em,clip=true]{chrom_state_legend}
+	\caption{ATAC-seq signal in bulk adipose, bulk islet, single-nucleus pancreatic beta cell, or our muscle cell types at the \textit{ARL15} locus. All tracks are normalized to 1M reads.}
+\end{figure}
+
+\end{document}

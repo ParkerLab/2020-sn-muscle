@@ -1,0 +1,3 @@
+wget -O metadata.tsv 'https://www.encodeproject.org/metadata/?type=Annotation&annotation_type=candidate+Cis-Regulatory+Elements&files.file_type=bed+bed3%2B&status=released&assembly=hg19'
+grep 'hg19' metadata.tsv  | grep -w released | grep Cis | grep -v bigBed | cut -f24 > download.txt
+xargs -L 1 curl -O -L < download.txt

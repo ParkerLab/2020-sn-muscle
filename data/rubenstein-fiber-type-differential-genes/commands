@@ -1,0 +1,3 @@
+# Table S4 from paper: https://www-nature-com.proxy.lib.umich.edu/articles/s41598-019-57110-6
+python reformat.py > fiber-type-differential-genes.txt
+
